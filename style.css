@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
+
+:root {
+  --default-color: #4527a0;
+}
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--default-color) !important;
+}
+
+.card {
+  font-family: 'Roboto', Tahoma, sans-serif;
+  height: 300px;
+  margin-top: 20%;
+  background-image: radial-gradient(circle, rgba(250, 250, 255, .95) 70%, rgba(240, 240, 255, .95) 100%);
+  box-shadow: 5px, 5px, 12px, #222;
+}
+
+.card .card-header {
+  color: #333;
+  padding: 15px 10px;
+}
+
+.card .card-body {
+  padding: 15px 10px;
+}
+
+.card .card-body .input-text {
+  height: 50px;
+  font-size: 18px;
+}
+
+.card .card-footer {
+  padding: 15px 10px;
+}
+
+.btn-card {
+  background-color: var(--default-color);
+  filter: brightness(1.2);
+  color: white;
+  height: 3em;
+  min-width: 88px;
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  letter-spacing: 0;
+  font-weight: bold;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+}
+
+.btn-card:hover {
+  color: #fff !important;
+  background-color: var(--default-color);
+  filter: brightness(0.9);
+}
+
+.advice {
+  color: #fff;
+  text-align: center;
+}
+
+.btn-custom {
+  height: 50px;
+  background-color: #dfdfdf !important;
+  transition: all 0.3s ease-in-out;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.btn-custom:hover {
+  background-color: #bbb !important;
+}
+
+.btn-icon {
+  display: block;
+  width: 25px;
+}
+
+.ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

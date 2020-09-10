@@ -1,0 +1,11 @@
+{
+  "name": "gerador-pis",
+  "version": "1.0.0",
+  "description": "Gerador de PIS para testes em sistemas",
+  "main": "index.js",
+  "author": "David Alves <alves.david@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "clipboard": "^1.7.1"
+  }
+}
